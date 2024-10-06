@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\ficti\documents\visual studio 2015\projects\texturepacker\texturepacker\main.cpp(76): warning C4018: '<': signed/unsigned mismatch
+c:\users\ficti\documents\visual studio 2015\projects\texturepacker\texturepacker\main.cpp(79): warning C4018: '<': signed/unsigned mismatch
+c:\users\ficti\documents\visual studio 2015\projects\texturepacker\texturepacker\main.cpp(93): warning C4018: '<': signed/unsigned mismatch
+c:\users\ficti\documents\visual studio 2015\projects\texturepacker\texturepacker\main.cpp(99): warning C4018: '<': signed/unsigned mismatch
+c:\users\ficti\documents\visual studio 2015\projects\texturepacker\texturepacker\main.cpp(124): warning C4018: '<': signed/unsigned mismatch
+c:\users\ficti\documents\visual studio 2015\projects\texturepacker\texturepacker\main.cpp(126): warning C4018: '<': signed/unsigned mismatch
+c:\users\ficti\documents\visual studio 2015\projects\texturepacker\texturepacker\main.cpp(20): warning C4101: 'rectTextures': unreferenced local variable
+  TexturePacker.vcxproj -> c:\users\ficti\documents\visual studio 2015\Projects\TexturePacker\Debug\TexturePacker.exe
+  TexturePacker.vcxproj -> c:\users\ficti\documents\visual studio 2015\Projects\TexturePacker\Debug\TexturePacker.pdb (Partial PDB)

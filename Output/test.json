@@ -1,0 +1,24 @@
+{
+    "Enemies/W2/grav_decrease_256x256.png": {
+        "origin": [
+            0,
+            0
+        ],
+        "originalTexSize": [
+            1536,
+            768
+        ],
+        "texName": "Enemies/W2/spritesheet_0.png"
+    },
+    "Enemies/W2/grav_increase_256x256.png": {
+        "origin": [
+            0,
+            768
+        ],
+        "originalTexSize": [
+            1536,
+            768
+        ],
+        "texName": "Enemies/W2/spritesheet_0.png"
+    }
+}
