@@ -19,9 +19,12 @@ int main() {
 	rect_xywhf rects[MAX_RECTS], *ptr_rects[MAX_RECTS];
 	sf::Texture *rectTextures[MAX_RECTS];
 
-	cout << "please enter the folder: " << endl;
+	cout << "please enter the folder name to be used: " << endl;
 	string folderName;
 	cin >> folderName;
+	cout << "please enter the spritesheet name to be used: " << endl;
+	string ssName;
+	cin >> ssName;
 
 	std::map<std::string, sf::Texture*> textureMap;
 	
@@ -87,6 +90,8 @@ int main() {
 		printf("failed: there's a rectangle with width/height bigger than max_size!\n");
 	}
 
+	cout << endl;
+
 	Color tempColor;
 	std::vector<std::string> outputNames;
 	outputNames.resize(bins.size());
@@ -114,7 +119,7 @@ int main() {
 			}
 		}
 
-		outputNames[i] = "spritesheet_" + to_string(i) + ".png";
+		outputNames[i] = ssName + "_spritesheet_" + to_string(i) + ".png";
 
 		outputImage.saveToFile("Output\\" + outputNames[i]);
 	}
