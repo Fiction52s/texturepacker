@@ -75,6 +75,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>C:\Users\ficti\Documents\Libs\SFML-2.5.1\include;D:\Libraries\json-develop\include;C:\Users\ficti\Documents\Libs\boost_1_79_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\Users\ficti\Documents\Libs\SFML-2.5.1\lib;C:\Users\ficti\Documents\Libs\boost_1_79_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>

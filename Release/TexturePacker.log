@@ -1,15 +1,14 @@
 ﻿  main.cpp
-main.cpp(79): warning C4018: '<': signed/unsigned mismatch
-main.cpp(82): warning C4018: '<': signed/unsigned mismatch
-main.cpp(98): warning C4018: '<': signed/unsigned mismatch
-main.cpp(104): warning C4018: '<': signed/unsigned mismatch
-main.cpp(129): warning C4018: '<': signed/unsigned mismatch
-main.cpp(131): warning C4018: '<': signed/unsigned mismatch
-main.cpp(20): warning C4101: 'rectTextures': unreferenced local variable
+main.cpp(78): warning C4018: '<': signed/unsigned mismatch
+main.cpp(81): warning C4018: '<': signed/unsigned mismatch
+main.cpp(97): warning C4018: '<': signed/unsigned mismatch
+main.cpp(103): warning C4018: '<': signed/unsigned mismatch
+main.cpp(128): warning C4018: '<': signed/unsigned mismatch
+main.cpp(130): warning C4018: '<': signed/unsigned mismatch
   Generating code
-  1 of 1662 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    19 functions had inline decision re-evaluated but remain unchanged
+  10 of 1644 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    5 functions were new in current compilation
+    59 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  TexturePacker.vcxproj -> c:\users\ficti\documents\visual studio 2015\Projects\TexturePacker\Release\TexturePacker.exe
-  TexturePacker.vcxproj -> c:\users\ficti\documents\visual studio 2015\Projects\TexturePacker\Release\TexturePacker.pdb (Full PDB)
+  TexturePacker.vcxproj -> C:\Users\ficti\Documents\Visual Studio 2015\Projects\TexturePacker\Release\TexturePacker.exe
+  TexturePacker.vcxproj -> C:\Users\ficti\Documents\Visual Studio 2015\Projects\TexturePacker\Release\TexturePacker.pdb (Full PDB)

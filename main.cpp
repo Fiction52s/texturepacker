@@ -12,12 +12,11 @@ using namespace sf;
 using namespace nlohmann;
 
 
-#define MAX_RECTS 200
+#define MAX_RECTS 2048
 #define ALLOW_FLIP false
 
 int main() {
 	rect_xywhf rects[MAX_RECTS], *ptr_rects[MAX_RECTS];
-	sf::Texture *rectTextures[MAX_RECTS];
 
 	cout << "please enter the folder name to be used: " << endl;
 	string folderName;
@@ -131,7 +130,8 @@ int main() {
 		for (int j = 0; j < bins[i].rects.size(); ++j)
 		{
 			currRect = bins[i].rects[j];
-			json &myCurrJSON = myjson[folderName + "/" + currRect->texName];//myjson.emplace_back( "test" );
+			json &myCurrJSON = myjson.emplace_back();//myjson[folderName + "/" + currRect->texName];//myjson.emplace_back( "test" );
+			
 			myCurrJSON["texName"] = folderName + "/" + outputNames[i];
 			std::vector<int> originVec;
 			originVec.push_back(currRect->x);
@@ -141,12 +141,13 @@ int main() {
 			texSizeVec.push_back(currRect->tex->getSize().x);
 			texSizeVec.push_back(currRect->tex->getSize().y);
 			myCurrJSON["originalTexSize"] = texSizeVec;
+			myCurrJSON["originalTexName"] = folderName + "/" + currRect->texName;
 			//myCurrJSON["originalTexName"] = folderName + "/" + currRect->texName;
 		}
 	}
 
 	ofstream test;
-	test.open("Output/test.json");
+	test.open("Output/" + ssName + ".json");
 	test << myjson.dump( 4 );
 	test.close();
 

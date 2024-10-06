@@ -1,0 +1,98 @@
+[
+    {
+        "origin": [
+            0,
+            0
+        ],
+        "originalTexName": "Enemies/W1/patroller_256x256.png",
+        "originalTexSize": [
+            2048,
+            1280
+        ],
+        "texName": "Enemies/W1/w1enemies_spritesheet_0.png"
+    },
+    {
+        "origin": [
+            0,
+            1280
+        ],
+        "originalTexName": "Enemies/W1/shroom_192x192.png",
+        "originalTexSize": [
+            1536,
+            768
+        ],
+        "texName": "Enemies/W1/w1enemies_spritesheet_0.png"
+    },
+    {
+        "origin": [
+            1536,
+            1280
+        ],
+        "originalTexName": "Enemies/W1/patroller_eye_48x48.png",
+        "originalTexSize": [
+            192,
+            144
+        ],
+        "texName": "Enemies/W1/w1enemies_spritesheet_0.png"
+    },
+    {
+        "origin": [
+            0,
+            0
+        ],
+        "originalTexName": "Enemies/W1/crawler_160x160.png",
+        "originalTexSize": [
+            1760,
+            1280
+        ],
+        "texName": "Enemies/W1/w1enemies_spritesheet_1.png"
+    },
+    {
+        "origin": [
+            0,
+            1280
+        ],
+        "originalTexName": "Enemies/W1/turret_208x176.png",
+        "originalTexSize": [
+            1040,
+            528
+        ],
+        "texName": "Enemies/W1/w1enemies_spritesheet_1.png"
+    },
+    {
+        "origin": [
+            1040,
+            1280
+        ],
+        "originalTexName": "Enemies/W1/airdasher_176x112.png",
+        "originalTexSize": [
+            880,
+            336
+        ],
+        "texName": "Enemies/W1/w1enemies_spritesheet_1.png"
+    },
+    {
+        "origin": [
+            0,
+            0
+        ],
+        "originalTexName": "Enemies/W1/shroom_jelly_160x160.png",
+        "originalTexSize": [
+            640,
+            1120
+        ],
+        "texName": "Enemies/W1/w1enemies_spritesheet_2.png"
+    },
+    {
+        "origin": [
+            640,
+            0
+        ],
+        "originalTexName": "Enemies/W1/respawner_192x192.png",
+        "originalTexSize": [
+            576,
+            960
+        ],
+        "texName": "Enemies/W1/w1enemies_spritesheet_2.png"
+    }
+]
